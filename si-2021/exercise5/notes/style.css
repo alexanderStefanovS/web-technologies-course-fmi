@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    background-color: #e8f1ff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.page-header {
+    padding: 25px;
+    width: 100%;
+    
+    background-color: #1298e3;
+    color: white;
+    
+    position: fixed;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+.new-note-form {
+    width: 25%;
+    margin: 0 1.5% 0 1.5%;
+    border: 2px solid grey;
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+    float: left;
+
+    position: fixed;
+    top: 120px;
+}
+
+.new-note-form h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    color: white;
+}
+
+.new-note-form header {
+    padding: 20px;
+    background-color: #1298e3;
+}
+
+.new-note-form article {
+    padding: 20px;
+    background-color: #cce0ff;
+}
+
+.form-item {
+    margin-top: 10px;
+}
+
+.form-item label {
+    display: block;
+    font-size: x-large;
+}
+
+.form-item input, textarea, select {
+    width: 100%;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.form-item button {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+    width: 100%;
+
+    font-size: x-large;
+
+    background-color: #1298e3;
+    color: white;
+}
+
+.form-item button:hover {
+    background-color: white;
+    color: #1298e3;
+}
+
+#notes {
+    width: 70%;
+    margin-top: 120px;
+    margin-right: 1.5%;
+
+    box-sizing: border-box;
+    
+    float: right;
+}
+
+#notes h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+}
+
+#notes > header {
+    padding: 10px;
+    border: grey 2px solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    background-color: #1298e3;
+    color: white;
+}
+
+.note {
+    border: grey 2px solid;
+    border-radius: 15px;
+    padding: 0 30px 15px 30px;
+    margin-bottom: 20px;
+
+    background-color: #cce0ff;
+}
+
+.note h2 {
+    text-decoration: underline;
+}
+
+.note h2 button {
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+
+    font-size: large;
+    background-color: #f3544e;
+    color: white;
+
+    float: right;
+}
+
+.note h2 button:hover {
+    background-color: white;
+    color: #f3544e;
+
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#invalid-msg {
+    text-align: center;
+    color: red;
+    display: none;
+}

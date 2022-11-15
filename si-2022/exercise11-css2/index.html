@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!-- <button class="my-btn">Click me!</button> -->
+<!-- 
+    <div class="animated-div"></div> -->
+ 
+    <!-- <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div id="item-4" class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div> -->
+
+    <div id="qrcode"></div>
+    <button id="generate-qr">Generate</button>
+
+    <script>
+        
+        const btn = document.getElementById('generate-qr');
+
+        btn.addEventListener('click', () => {
+            const qrcode = new QRCode(document.getElementById("qrcode"), {
+                text: JSON.stringify({
+                    name: 'Sasho',
+                    number: 'test'
+                }),
+                width: 128,
+                height: 128,
+                colorDark : "#000000",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.H
+            });
+        });
+
+    </script>
+
+</body>
+</html>

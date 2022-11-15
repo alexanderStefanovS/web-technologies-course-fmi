@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Бележки</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>Моите бележки</h1>
+    </header>
+    <aside id="new-note" class="new-note-form">
+        <header>
+            <h2>Нова бележка</h2>
+        </header>
+        <article>
+            <form id="note-form" method="POST" action="../../backend/api/save-note.php" target="_blank">
+                <div class="form-item">
+                    <label for="name">Име</label>
+                    <input id="name" type="text" name="name" placeholder="Въведете име" required autocomplete="off">
+                </div>
+                <div class="form-item">
+                    <label for="date-and-time">Дата и час</label>
+                    <input id="date-and-time" type="datetime-local" name="dateAndTime" placeholder="Въведете дата и час"
+                        autocomplete="off" required>
+                </div>
+                <div class="form-item">
+                    <label for="desc">Описание</label>
+                    <textarea id="desc" name="description" cols="30" rows="10" placeholder="Въведете описание"></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="priority">Приоритет</label>
+                    <select id="priority" name="priorityId">
+                        <option value="1">Висок</option>
+                        <option value="2">Среден</option>
+                        <option value="3">Нисък</option>
+                    </select>
+                </div>
+                <h3 id="invalid-msg">Всички полета са задължителни</h3>
+                <div class="form-item">
+                    <button id="btn">Запиши</button>
+                </div>
+            </form>
+        </article>
+    </aside>
+    <section id="notes">
+        <header>
+            <h1>Записани бележки</h1>
+        </header>
+        <article id="notes-body">
+        </article>
+    </section>
+</body>
+
+</html>

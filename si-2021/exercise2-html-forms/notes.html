@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Бележки</title>
+</head>
+
+<body>
+  <header>
+    <h2>Моите бележки</h2>
+  </header>
+  <section>
+    <header>
+      <h3>Нова бележка</h3>
+    </header>
+    <article>
+      <form id="notes-form">
+        <label for="name">Име</label>
+        <br>
+        <input id="name" type="text" name="name" placeholder="Въведете име" autocomplete="off">
+        <br>
+        <br>
+        <label for="date-and-time">Дата и час</label>
+        <br>
+        <input id="date-and-time" type="datetime-local" name="dateAndTime" placeholder="Въведете дата и час"
+        autocomplete="off">
+        <br>
+        <br>
+        <label for="desc">Описание</label>
+        <br>
+        <textarea id="desc" name="desc" cols="30" rows="10" placeholder="Въведете описание"></textarea>
+        <br>
+        <br>
+        <label for="priority">Приоритет</label>
+        <br>
+        <select id="priority" name="priority">
+        <option value="high">Висок</option>
+        <option value="normal">Нормален</option>
+        <option value="low">Нисък</option>
+        </select>
+        <br>
+        <br>
+        <button>Запиши</button>
+      </form>
+    </article>
+  </section>
+  <section>
+    <header>
+      <h3>Записани бележки</h3>
+    </header>
+    <section>
+      <header>
+        <h4>Упражнение WEB - 02.03.2021г. 16:15ч.</h4>
+      </header>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam, cupiditate aperiam quod optio
+          error vitae cum, aspernatur delectus provident aut, placeat nemo. Fugit perspiciatis nostrum, optio numquam
+          laborum eum.
+        </p>
+      </article>
+    </section>
+    <section>
+      <header>
+        <h4>Бележка 2 - 02.03.2021г. 15:30ч.</h4>
+      </header>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam, cupiditate aperiam quod optio
+          error vitae cum, aspernatur delectus provident aut, placeat nemo. Fugit perspiciatis nostrum, optio numquam
+          laborum eum.
+        </p>
+      </article>
+    </section>
+  </section>
+</body>
+
+</html>

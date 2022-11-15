@@ -1,0 +1,10 @@
+
+span {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    background-color: lightblue;
+    cursor: pointer;
+
+    display: inline-block;
+}

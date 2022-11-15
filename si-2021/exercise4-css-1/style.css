@@ -1,0 +1,107 @@
+
+h2 {
+    color: green;
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.my-text-color {
+    color: red;
+}
+
+#second-heading {
+    color: blue;
+}
+
+.container {
+    /* margin: 150px 50px 150px 50px */
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+
+    background-color: black;
+    overflow: auto;
+    height: 300px;
+    /* background-image: url('./images/img_lights.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom; */
+}
+
+.article {
+    padding: 30px;
+}
+
+.paragraph {
+    color: rgb(192, 149, 149);
+
+    text-align: justify;
+    text-transform: capitalize;
+    /* font-style: italic;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font: bold 'Segoe UI', Tahoma
+}
+
+.box-height {
+    height: 200px;
+}
+
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    opacity: 0.5;
+    visibility: visible;
+}
+
+/* .box-2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-color: red;
+} */
+
+.position-div {
+    width: 500px;
+    height: 500px;
+    border: black solid;
+    margin: auto;
+    position: relative;
+}
+
+.position-div h3 {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.btn {
+    position: fixed;
+    top: 200px;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+}
+
+.my-list {
+    background-color: blueviolet;
+}
+
+ul:first-child {
+    background-color: red;
+}

@@ -1,0 +1,91 @@
+
+body {
+    background-color: #f2f7eb;
+}
+
+h1 {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.container {
+    margin: auto;
+    margin-top: 150px;
+    width: 25%;
+    border: 3px solid;
+    border-radius: 15px;
+    
+    overflow: hidden;
+}
+
+.container-header {
+    text-align: center;
+    color: white;
+    background-color: #68bf04;
+    padding: 10px;
+}
+
+.container-body {
+    padding: 20px;
+    background-color: #edf5e4;
+}
+
+.form-item {
+    margin-top: 10px;
+}
+
+.form-item label {
+    display: block;
+    font-size: x-large;
+}
+
+.form-item input {
+    width: 100%;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.form-item input:valid {
+    border-color: green;
+    background-color: #81e781;
+}
+
+.form-item input:invalid {
+    border-color: red;
+    background-color: rgb(240, 108, 108);
+}
+
+.form-item select {
+    width: 100%;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.form-item button {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+    width: 100%;
+
+    font-size: x-large;
+
+    background-color: #68bf04;
+    color: white;
+}
+
+.form-item button:hover {
+    background-color: white;
+    color: #68bf04;
+}
+
+#err-msg {
+    color: red;
+    text-align: center;
+}
+
+#success-msg {
+    color: green;
+    text-align: center;
+}

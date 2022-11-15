@@ -1,0 +1,63 @@
+
+/* h1 {
+    color: yellow;
+} */
+
+.fixed-box {
+    width: 150px;
+    height: 150px;
+
+    top: 100px;
+
+    position: fixed;
+    background-color: blue;
+}
+
+.box {
+    width: 30%;
+    height: 100px;
+
+    /* display: inline-block; */
+
+    border: 2px solid black;
+
+    position: relative;
+
+    left: 100px;
+    top: 100px;
+
+    /* margin: 100px 0 0 100px; */
+    padding: 10px 10px 10px 10px;
+
+    background-color: rgba(98, 0, 255, 0.2);
+}
+
+.small-box {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+
+    top: 50px;
+    left: 50px;
+
+    background-color: red;
+}
+
+.box:hover {
+    background-color: aqua;
+}
+
+.box h1 {
+    color: rgb(91, 33, 150);
+    text-align: center;
+    margin: 0;
+}
+
+.color-red {
+    color: rgb(20, 20, 20);
+}
+
+#hello-css-2 {
+    color:blueviolet;
+}
