@@ -1,0 +1,81 @@
+
+/* span {
+    background-color: yellow;
+
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+} */
+
+.box {
+    top: 50px;
+    position: fixed;
+
+    border: 2px solid;
+
+    /* margin: auto; */
+
+    height: 100px;
+    width: 50%;
+
+    padding: 20px;
+
+}
+
+.box h1 {
+    color: blue;
+    text-align: center;
+    font: italic small serif;
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#hello-css {
+    color: red;
+}
+
+.color-green {
+    color: green;
+}
+
+
+.float-box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.btn {
+    background-color: blue;
+}
+
+.btn:hover {
+    background-color: red ;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container label {
+    display: block;
+}

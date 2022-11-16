@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Запис на курс</h1>
+    </header>
+    <section>
+        <form action="course-form.php" method="post" target="_blank">
+            <div>
+                <label for="course-name">Име на предмет</label>
+                <br>
+                <input id="course-name" name="courseName" type="text" autocomplete="off">
+            </div>
+            <div>
+                <label for="credits">Брой кредити</label>
+                <br>
+                <input id="credits" name="credits" type="number" min="1" max="8">
+            </div>
+            <div>
+                <label for="teacher-email">Имейл на преподавателя</label>
+                <br>
+                <input id="teacher-email" name="teacherEmail" type="email">
+            </div>
+            <div>
+                <label for="required">Задължителен</label>
+                <input id="required" name="required" value="true" type="checkbox">
+            </div>
+            <div>
+                <label for="course-type">Тип на курса</label>
+                <br>
+                <select name="courseType" id="course-type">
+                    <option value="okn">ОКН</option>
+                    <option value="iakn">ЯКН</option>
+                    <option value="mat">Математика</option>
+                </select>
+            </div>
+            <div>
+                <label for="description">Описание</label>
+                <br>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button>Запис</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
