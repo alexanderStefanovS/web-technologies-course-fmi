@@ -1,6 +1,8 @@
 
 console.log(this);
 
+debugger;
+
 function fn() {
 
     function fn2() {
@@ -9,6 +11,8 @@ function fn() {
 
     fn2();
 }
+
+fn();
 
 function getAge() {
     return this.age;
