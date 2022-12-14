@@ -1,7 +1,7 @@
 
 console.log(this);
 
-debugger;
+debugger; 
 
 function fn() {
 
