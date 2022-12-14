@@ -17,10 +17,10 @@
             <h2>Нова бележка</h2>
         </header>
         <article>
-            <form id="note-form">
+            <form id="note-form" novalidate >
                 <div class="form-item">
                     <label for="name">Име</label>
-                    <input id="name" type="text" name="name" placeholder="Въведете име" required autocomplete="off">
+                    <input id="name" type="text" name="title" placeholder="Въведете име" required autocomplete="off">
                 </div>
                 <div class="form-item">
                     <label for="date-and-time">Дата и час</label>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="form-item">
                     <label for="desc">Описание</label>
-                    <textarea id="desc" name="desc" cols="30" rows="10" placeholder="Въведете описание"></textarea>
+                    <textarea id="desc" name="description" cols="30" rows="10" placeholder="Въведете описание"></textarea>
                 </div>
                 <div class="form-item">
                     <label for="priority">Приоритет</label>
