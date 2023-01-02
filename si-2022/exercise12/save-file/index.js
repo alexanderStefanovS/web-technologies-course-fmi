@@ -10,8 +10,7 @@ form.addEventListener('submit', (event) => {
         method: 'POST',
         body: formData 
     })
-    .then(res => res.json())
-    .then(data => console.log(data));
+    .then();
 
     event.preventDefault();
 });

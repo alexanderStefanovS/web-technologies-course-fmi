@@ -9,8 +9,10 @@ if (isset($_FILES['csv']['name'])) {
 
     // error handling when working with files!
 
+    // saves the uploaded file on the server file system
     // move_uploaded_file($fileTmpName, $location);
 
+    // reads the uploaded file content and processes the data
     $fileContent = file_get_contents($_FILES['csv']['tmp_name']);
 
     $rows = explode("\n", $fileContent);
@@ -24,8 +26,6 @@ if (isset($_FILES['csv']['name'])) {
     }
 
     var_dump($students);
-
-    // echo json_encode(["msg" => "Data is saved!"]);
 
 }
 
