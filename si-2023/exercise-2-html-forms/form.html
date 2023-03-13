@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Вход</h1>
+    </header>
+    <section>
+        <form action="form-handler.php" method="post">
+            <div>
+                <label for="username">Потребителско име</label>
+                <input id="username" type="text" name="username" autofocus autocomplete="off">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" autocomplete="off" required>
+            </div>
+            <div>
+                <label for="password">Парола</label>
+                <input id="password" type="password" name="password" autocomplete="off">
+            </div>
+            <div>
+                <label for="remember">Запомни ме</label>
+                <input id="remember" type="checkbox" checked>
+            </div>
+            <select name="age">
+                <option value="1"> Kid (0-12) </option>
+                <option value="2"> Teen (13-19) </option>
+                <option value="3" selected> Adult (20+) </option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+                <button>Вход</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
