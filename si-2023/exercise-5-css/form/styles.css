@@ -1,0 +1,49 @@
+
+.form-container {
+    width: 50%;
+    border: 2px black solid;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form-header {
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 10px;
+
+    background-color: aquamarine;
+}
+
+.form-header h2 {
+    margin: 0;
+}
+
+.form-body {
+    padding: 10px;
+    background-color: aqua;
+}
+
+.form-item {
+    margin-top: 20px;
+}
+
+.form-item input, label {
+    display: block;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.form-item .btn {
+    background-color: aquamarine;
+    margin: auto;
+    display: block;
+}
+
+.form-item .btn:hover {
+    background-color: blue;
+    color: white;
+
+    cursor: pointer;
+}
