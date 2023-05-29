@@ -118,6 +118,15 @@ myForm.addEventListener('submit', (event) => {
     event.preventDefault(); 
 
     const username = document.getElementById('username').value;
-    console.log(username);
-});
+
+    const inputs = myForm.querySelectorAll('input, select');
+
+    const data = {};
+    inputs.forEach(input => {
+        data[input.name] = input.value;
+    });
+
+    console.log(data);
+
+}); 
 
