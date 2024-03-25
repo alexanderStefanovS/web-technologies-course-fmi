@@ -1,0 +1,97 @@
+
+/* * {
+    display: inline;
+} */
+
+h1 {
+    color: brown;
+}
+
+#my-h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.h1-color {
+    color: green;
+}
+
+div h2 {
+    color: pink;
+}
+
+li:nth-child(3) {
+    color: aqua;
+}
+
+#my-btn {
+    color: red;
+    background-color: blue;
+}
+
+#my-btn:hover {
+    color: rgb(200, 176, 222);
+    background-color: red;
+    cursor: pointer;
+}
+
+.custom-font {
+    font: italic bold 16px/30px Verdana, Consolas, sans-serif;
+}
+
+.container {
+    width: 40%;
+    height: 200px;
+
+    /* margin: auto;
+    margin-top: 50px; */
+    /* padding: 25px; */
+
+    position: fixed;
+    top: 100px;
+    left: 50px;
+
+    display: block;
+
+    border: 5px solid black;
+
+    background-color: blue;
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+
+
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+
+    background-color: red;
+}
+
+.none-div {
+    display: none;
+}
+
+.hidden-div {
+    visibility: hidden;
+}
+
+.box {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    overflow: auto;
+
+    float: left;
+}
+
+.clear-float {
+    clear: both;
+}

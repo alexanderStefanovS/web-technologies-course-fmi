@@ -1,0 +1,44 @@
+
+.form-container {
+
+    width: 50%;
+
+    margin: auto;
+    margin-top: 150px;
+
+    border: 2px solid black;
+
+}
+
+.form-header {
+    border-bottom: 2px solid black;
+    padding: 5px 0 5px 0;
+    background-color: rgb(18, 193, 18);
+}
+
+.form-header h1 {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.form-body {
+    padding: 5px;
+    background-color: rgb(102, 217, 102);
+}
+
+.form-item input, label, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-item button {
+    margin-top: 10px;
+    background-color: rgb(18, 193, 18);
+}
+
+.form-item button:hover {
+    background-color: white;
+    color: rgb(18, 193, 18);
+    cursor: pointer;
+}

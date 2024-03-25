@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="./form-handler.php" method="post">
+        <div>
+            <label for="username">Потребителско име</label>
+            <input id="username" name="username" type="text" value="my username">
+        </div>
+        <div>
+            <label for="email">Имейл</label>
+            <input id="email" name="email" type="email">
+        </div>
+        <div>
+            <label for="password">Парола</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <label>
+                Мъж   
+                <input type="radio" name="gender" value="M">
+            </label>
+            <label>
+                Жена
+                <input type="radio" name="gender" value="F"> 
+            </label>
+        </div>
+        <div>
+            <label>
+                Запомни ме
+                <input autocomplete="off" name="remember" value="true" type="checkbox">
+            </label>
+        </div>
+        <div>
+            <label for="description">Описание</label>
+            <textarea style="resize: none" name="description" id="description"></textarea>
+        </div>
+        <div>
+            <label for="role"></label>
+            <select name="role" id="role">
+                <option value="student">Студент</option>
+                <option value="teacher">Преподавател</option>
+                <option value="admin">Администратор</option>
+            </select>
+        </div>
+        <div>
+            <button>Запис</button>
+        </div>
+    </form>
+</body>
+</html>
