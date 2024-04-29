@@ -52,7 +52,6 @@
             echo json_encode(["message" => "Грешка при вход"]);
         }
 
-
     } else {
         http_response_code(400);
         echo json_encode(["message" => "Невалидни данни"]);
