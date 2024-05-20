@@ -29,13 +29,11 @@ loginForm.addEventListener('submit', (event) => {
             location = '../notes/notes.html';
         })
         .catch((err) => {
-            console.log(err);
-
             err.then(errData => {
-                console.log(errData);
-            })
+                console.error(errData);
 
-            // show error message on the page
+                // show error message on the page
+            })
         });
 
 });

@@ -1,0 +1,60 @@
+
+@keyframes box-animation {
+    0% { transform: rotate(0deg); margin-left: 10px; }
+    50% { transform: rotate(90deg) scale(1.5); margin-left: 100px;}
+    100% { transform: rotate(180deg); margin-left: 10px;}
+}
+
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+
+    background-color: blue;
+
+    animation: box-animation 2s infinite;
+}
+
+.container {
+    width: 80%;
+    height: 600px;
+
+    padding: 30px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    
+    /* flex-wrap: wrap; */
+    
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 400px;
+
+    border: 1px solid black;
+    margin: 5px;
+
+    background-color: red;
+}
+
+.ordered-box {
+    order: 1;
+    /* align-self: flex-end; */
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+  }
+  
